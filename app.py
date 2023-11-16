@@ -34,7 +34,7 @@ if not check_password():
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 openai.api_key = openai_api_key
 
-st.header("Chat with the Streamlit docs 💬 📚")
+st.header("Chat with the Developertown docs 💬 📚")
 
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [
